@@ -1,0 +1,30 @@
+package com.estore.dao;
+
+import com.estore.domain.Admin;
+import com.estore.domain.User;
+
+public interface AdminDao {
+	
+	/**
+	 * 根据用户名和密码查找管理员
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	public Admin findAdminByUsernameAndPassword(String username,String password);
+	
+	/**
+	 * 保存管理员
+	 * @param user
+	 * @return
+	 */
+	public boolean saveAdmin(Admin admin);
+	
+	/**
+	 * 根据管理员id更改管理员信息
+	 * @param user
+	 * @return
+	 */
+	public boolean updateAdminByAid(Admin admin);
+
+}

@@ -1,0 +1,44 @@
+package com.estore.dao;
+
+import java.util.List;
+
+import com.estore.domain.Product;
+
+public interface ProductDao {
+
+	/**
+	 * 保存商品
+	 * @param product
+	 * @return
+	 */
+	public boolean saveProduct(Product product);
+	
+	/**
+	 * 删除商品
+	 * @param product
+	 * @return
+	 */
+	public boolean deleteProduct(Product product);
+	
+	/**
+	 * 修改商品
+	 * @param product
+	 * @return
+	 */
+	public boolean updateProduct(Product product);
+	
+	/**
+	 * 根据商品名称或商品号查询商品
+	 * @param pname
+	 * @param pid
+	 * @return
+	 */
+	public Product findProductByPnameOrPid(String pname,String pid);
+	
+	/**
+	 * 查询所有商品
+	 * @return
+	 */
+	public List<Product> findAllProduct();
+
+}

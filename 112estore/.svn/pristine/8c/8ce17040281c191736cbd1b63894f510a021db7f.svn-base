@@ -1,0 +1,27 @@
+package com.estore.service.impl;
+
+import com.estore.dao.AdminDao;
+import com.estore.dao.impl.AdminDaoImpl;
+import com.estore.domain.Admin;
+import com.estore.service.AdminService;
+
+public class AdminServiceImpl implements AdminService {
+	
+	private AdminDao adminDao = new AdminDaoImpl();
+
+	public Admin login(String username, String password) {
+		Admin admin = adminDao.findAdminByUsernameAndPassword(username, password);
+		return admin;
+	}
+
+	public boolean regist(Admin admin) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean updateAdminMsg(Admin admin) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
