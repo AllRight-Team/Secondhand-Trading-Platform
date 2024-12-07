@@ -1,16 +1,5 @@
 # 基于SSM的校园二手交易平台
 
-**完整的设计报告在后面**
-
-视频教程：<br>
-https://www.bilibili.com/video/BV1jc411H7aX/
-
-喜欢就点一下star哟，谢谢亲的支持  
-https://github.com/wsk1103/Used-Trading-Platform2
-
-个人主页  
-https://wsk1103.github.io/
-
 使用 Spring Boot 一键式启动。
 
 下载项目，运行c2c.sql文件，然后运行 UsedTradingPlatformApplication.main 方法即可启动。
@@ -478,15 +467,7 @@ mysql5.7
 　　没有实现的功能：秒杀系统，前端反向代理，CDN加速。
 
 
-## 参考文献
-[1] 李智慧. 大型网站技术架构 核心原理与案例分析[M].北京，工业机械出版社，2013.  
-[2] 马丁著 韩磊译.代码整洁之道[Clean Code A Handbook of Agile Software Craftsmanship] [M]. 北京，人们邮电出版社，2010.  
-[3] Craig Walls 著 张卫滨译. Spring In Action[M]. 北京，人民邮电出版社，2016  
-[4] Thomas H.Cormen , Charles E.Leiserson, Ronald L.Rivest, Clifford Stein著，徐云，王刚等译. 算法导论（原书第3版）[M]. 北京，机械工业出版社，2015  
-[5] Joshua Bloch 著 杨春花 俞黎敏 译. Effective Java(Second Edition) [M]. 北京，机械工业出版社，2016  
-[6] 本·弗莱恩（Ben Frain）著奇舞团 译. 响应式Web设计 HTML5和CSS3实战（第2版）[M]. 人民邮电出版社，2017  
-[7] 达科特（Jon Duckett） 著 刘涛，陈学敏 译. JavaScript&jQuery交互式Web前端开发[M]. 清华大学出版社，2015  
-[8] NicholasC.Zakas著 李松峰曹力 译. JavaScript高级程序设计(第3版)[M]. 人民邮电出版社，2016  
+
 
 
 
