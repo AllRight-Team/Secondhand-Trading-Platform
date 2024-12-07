@@ -1,9 +1,6 @@
 # 基于SSM的校园二手交易平台
 
 ## 项目部署
-项目下载：https://github.com/wsk1103/Used-Trading-Platform2
-项目自带视频教程（直接从数据库开始，可以按教程运行试下，之前有过开发经验的说不定可以直接跑起来）：https://www.bilibili.com/video/BV1jc411H7aX/
-我的步骤：
 IDE:IDEA 2022.3.3
 1.检查jdk版本：1.8
 
