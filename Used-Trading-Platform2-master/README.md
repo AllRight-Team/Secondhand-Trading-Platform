@@ -1,5 +1,23 @@
 # 基于SSM的校园二手交易平台
 
+## 项目部署
+项目下载：https://github.com/wsk1103/Used-Trading-Platform2
+项目自带视频教程（直接从数据库开始，可以按教程运行试下，之前有过开发经验的说不定可以直接跑起来）：https://www.bilibili.com/video/BV1jc411H7aX/
+我的步骤：
+IDE:IDEA 2022.3.3
+1.检查jdk版本：1.8
+
+2.Tomcat部署：
+版本：8.5.73
+教程：https://www.bilibili.com/video/BV1414heZEC1/?spm_id_from=333.1391.0.0&vd_source=15110fa8be5fc2d93204032a7a24b389
+3.Maven部署
+版本：3.5.4
+教程：https://www.bilibili.com/video/BV1HiiGeWEGv/?spm_id_from=333.1391.0.0&vd_source=15110fa8be5fc2d93204032a7a24b389
+4.Mysql下载
+版本：5.7
+教程：https://www.bilibili.com/video/BV1NyvxeaE1t/?spm_id_from=333.1391.0.0&vd_source=15110fa8be5fc2d93204032a7a24b389
+在Navicat创建和Mysql的连接，回到最开始按项目教程操作
+
 使用 Spring Boot 一键式启动。
 
 下载项目，运行c2c.sql文件，然后运行 UsedTradingPlatformApplication.main 方法即可启动。
